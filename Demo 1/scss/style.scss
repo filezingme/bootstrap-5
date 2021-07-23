@@ -1,0 +1,15 @@
+
+$blue: red;
+
+@import 'mixins';
+@import "bootstrap/bootstrap";
+
+
+body {
+	background-color: pink;
+	@include bier(3rem);
+}
+
+p {
+	@include bier(2rem);
+}
