@@ -1,12 +1,12 @@
 
-$blue: red;
+$blue: blue;
 
 @import 'mixins';
-@import "bootstrap/bootstrap";
+@import "../bootstrap/scss/bootstrap";
 
 
 body {
-	background-color: pink;
+	background-color: white;
 	@include bier(3rem);
 }
 
